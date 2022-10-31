@@ -1,0 +1,63 @@
+/*************************************************************/
+/*Navigation bar animation*/
+
+#header-navigation {
+    position: relative;
+}
+
+#header-navigation .animation {
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+    z-index: 0;
+    background: #939494;
+    border-radius: 8px;
+    transition: all 0.4s ease 0s;
+}
+
+#header-navigation a,
+a:hover~.animation {
+    width: 8rem;
+}
+
+
+#header-navigation .start-home,
+a:nth-child(1):hover~.animation {
+    left: 0;
+}
+
+#header-navigation a:nth-child(2):hover~.animation {
+    left: 8rem;
+}
+
+#header-navigation a:nth-child(3):hover~.animation {
+    left: 16rem;
+}
+
+#header-navigation a:nth-child(4):hover~.animation {
+    left: 24rem;
+}
+
+#header-navigation a:nth-child(5):hover~.animation {
+    left: 32rem;
+}
+
+#header-navigation a:nth-child(6):hover~.animation {
+    left: 40rem;
+}
+
+#header-navigation a:nth-child(7):hover~.animation {
+    left: 48rem;
+}
+
+#header-navigation a:nth-child(8):hover~.animation {
+    left: 56rem;
+}
+
+#header-navigation a:nth-child(9):hover~.animation {
+    left: 64rem;
+}
+
+#header-navigation a:nth-child(10):hover~.animation {
+    left: 72rem;
+}
